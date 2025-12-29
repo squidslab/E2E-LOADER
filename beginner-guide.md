@@ -1,7 +1,7 @@
 # Beginner Guide: Docker and Apache JMeter
 This guide introduces Docker and Apache JMeter for users who are new to these tools. It is designed to help you set up the environment required to run E2E-Loader.
 
-## 1. Introduction to Docker
+## 1. Introduction to Docker 🐳
 Docker is an open-source platform designed to simplify the process of building, shipping, and running applications. It achieves this by packaging applications and all their dependencies into containers, which are lightweight, portable, and consistent across different environments.
 Key concepts in Docker are those of **Images** and **Containers**. We briefly introduce them in the following, but readers interested in learning more are recommended to visit the official Docker documentation here: https://docs.docker.com/get-started/docker-overview/
 
@@ -29,7 +29,7 @@ Advantages of Docker for E2E-Loader include:
 The easiest way to install Docker is to install the GUI Tool called Docker Desktop. Details on how to do that and on different installation options are available on the official website here: https://docs.docker.com/get-started/get-docker/
 
 
-## 2. Apache JMeter
+## 2. Apache JMeter ⚡
 
 Apache JMeter is a widely used open-source tool designed for performance and load testing of web applications, APIs, and other services. It helps developers and testers evaluate how systems 
 behave under different levels of stress by simulating real-world user activity.
