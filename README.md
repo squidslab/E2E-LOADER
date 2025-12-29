@@ -197,7 +197,7 @@ The schema generator component is responsible for generating JSON Schema definit
 If you want to change how dependencies between requests are matched, focus on the class:
 `AtomicDependenciesValidator` (located in `Services/Dependencies`)
 
-Within this class you can refine or extend dependency evaluation logic. For example:
+Within this class, you can refine or extend dependency evaluation logic. For example:
 
 - `evaluate_header_atomic_dep` → header-based dependencies
 - `evaluate_cookie_atomic_dep` → cookie-based dependencies
@@ -218,6 +218,14 @@ To add another export format (e.g., **Gatling**, **Locust**, or **k6**):
 1. Create a new class (e.g., `GatlingAdaption`) inside `Services/ScriptGeneration`.
 2. Implement the conversion logic according to the target tool's format.
 3. Replace or extend the call in `CorrelationFrameService.java` so that your new method is invoked alongside or instead of `runJMeterAdaption`.
+
+## Javadoc documentation
+The core classes and methods in E2E-Loader are annotated with Javadoc-style comments. Documentation generated with Javadoc is available in the `/docs` directory and deployed using GitHub Pages here: https://squidslab.github.io/E2E-Loader.
+To generate Javadoc documentation from scratch, interested users can run the following Maven command in the root directory of E2E-Loader:
+```
+mvn javadoc:javadoc
+```
+By default, the documentation will be generated in the `target\reports\apidocs` directory.
 
 ---
 
