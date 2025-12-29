@@ -1,4 +1,4 @@
-# 🚀 E2E Loader
+# 🚀 E2E-Loader
 
 E2E-Loader is an award-winning tool designed to streamline the generation of performance test workloads, leveraging existing GUI-level End-to-End (E2E) tests.
 
