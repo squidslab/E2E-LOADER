@@ -9,6 +9,7 @@ This README includes:
 * 🧑‍💻**Developer Guide**.
   Explore the internal architecture and discover how to extend or customize E2E Loader. Intended for researchers and practitioners looking to adapt the tool to their needs.
 
+* 📗**Beginner's Guide**. Additional background concepts and setup instructions for Docker and Apache JMeter, which are required to run E2E-Loader, is also available in our dedicated [Beginner's Guide](beginner-guide.md).
 
 
 # User Guide
